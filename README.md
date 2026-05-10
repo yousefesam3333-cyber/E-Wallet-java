@@ -16,6 +16,21 @@ A simple electronic wallet system built using Java and Object-Oriented Programmi
 ## Project Structure
 ```bash
 eWalletSystem/
+│── Service/
+│   │── AccountService.java
+│   │── ApplicationService.java
+│   │── validationService.java
+│   │── impl/
+│       │── AccountServiceImpl.java
+│       │── ApplicationServicesImpl.java
+│       │── validationServiceImpl.java
+│
+│── mainApp/
+│   │── Main.java
+│
+│── model/
+│   │── Account.java
+│   │── EWallet.java
 ```
 
 ## How to Run
